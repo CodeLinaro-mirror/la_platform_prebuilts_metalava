@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.kotlin",
+    "module": "kotlinx-atomicfu-runtime",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotlinx-atomicfu-runtime-2.0.0.klib",
+          "url": "kotlinx-atomicfu-runtime-2.0.0.klib",
+          "size": 8434,
+          "sha512": "b77be1d58e74f4895f84f76204176cb6e23fcc9a382d866c19d41acb75a3aea6cf2214b956fbf7b4b7d3ac9cef2eebb564d65d78b331e28be7e5acb1cd91508b",
+          "sha256": "92e20de91701709218c45e8cbc6fd5ff78fc0baa7e73ec763dd1622407c443b4",
+          "sha1": "5dd3b6879cd1d19249083132503a739f8558426d",
+          "md5": "9ee1375aa9701b9f7422970c38b25bff"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotlinx-atomicfu-runtime-2.0.0.klib",
+          "url": "kotlinx-atomicfu-runtime-2.0.0.klib",
+          "size": 8434,
+          "sha512": "b77be1d58e74f4895f84f76204176cb6e23fcc9a382d866c19d41acb75a3aea6cf2214b956fbf7b4b7d3ac9cef2eebb564d65d78b331e28be7e5acb1cd91508b",
+          "sha256": "92e20de91701709218c45e8cbc6fd5ff78fc0baa7e73ec763dd1622407c443b4",
+          "sha1": "5dd3b6879cd1d19249083132503a739f8558426d",
+          "md5": "9ee1375aa9701b9f7422970c38b25bff"
+        }
+      ]
+    },
+    {
+      "name": "commonFakeApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotlinx-atomicfu-runtime-2.0.0-sources.jar",
+          "url": "kotlinx-atomicfu-runtime-2.0.0-sources.jar",
+          "size": 1288,
+          "sha512": "0bfce30f35bf4ac4df3238285094d34f7e43cde6742c3c7396f16af76495439ccfea10d32feafd83674ffde3a589e1c50d8f01e16e41043019ad554cdfcce791",
+          "sha256": "f0987da87eb5fee8dc8ac01ed990a6d1b2cfbddfa949151353db1846ec0f4c60",
+          "sha1": "6fb9bf68bff745af9c20a8140ca0b0af56c48df7",
+          "md5": "c1d38e636af2354df6e755a1d9cfa48f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../atomicfu/0.25.0/atomicfu-0.25.0.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "atomicfu",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu.klib",
+          "url": "atomicfu-androidnativearm32-0.25.0.klib",
+          "size": 51137,
+          "sha512": "68b299fa1a43376e811afbedc000dd25bce15ffc1f2a0dc6c3d02ee65749ea3068d2c5af5dfc0c4bac8c1c6f17bf797ced6132820cdafc24df5338bdc388a66e",
+          "sha256": "03d8e919283d8b498810fbefaa8a2d8018ec4551ff50d4e0a069dbb9f4bab9a7",
+          "sha1": "caf9c4a28586395af6b6e5a05564b4c3a6166172",
+          "md5": "5490ed189bd80acbb233149f2a07f8bb"
+        },
+        {
+          "name": "atomicfu-cinterop-interop.klib",
+          "url": "atomicfu-androidnativearm32-0.25.0-cinterop-interop.klib",
+          "size": 3783,
+          "sha512": "77a96a8270997c37d08b277a9227bc09cae734e48019f75d408a02683ab329a5c6e545a6b0bbd32814d5964ca64a35d9b7ea070fa5018eab6795b30f2f5199ca",
+          "sha256": "46594a60b19304215059f71140cec833249fbcf9c18470f218f875628173cc53",
+          "sha1": "91e09040b55228f20d74eeab90de914ebd906b73",
+          "md5": "04a93207a4ced720c70254f7a54240b9"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "atomicfu-androidnativearm32-0.25.0-sources.jar",
+          "url": "atomicfu-androidnativearm32-0.25.0-sources.jar",
+          "size": 12696,
+          "sha512": "9d777a4f7d3e3fff08f5d3df295b48dd9ba31c2cfa69bab0fed3e4661af220f178866c46e7d245fcac358145d938e5158b09bf02e688ae50c6150397e1fddc68",
+          "sha256": "d88a8e8ba6992976fc7aa36aa79cc300d4846648127a8c63cc8c57c82668360d",
+          "sha1": "d9feea96427919007a6d8870888f37fc40eb450b",
+          "md5": "8f8573968bc6f76f9d5af157060e5577"
+        }
+      ]
+    }
+  ]
+}

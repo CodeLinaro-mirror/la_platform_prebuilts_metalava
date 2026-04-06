@@ -1,0 +1,72 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.kotlin",
+    "module": "kotlin-test-js",
+    "version": "1.8.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApi",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-test-js-1.8.22.jar",
+          "url": "kotlin-test-js-1.8.22.jar",
+          "size": 108371,
+          "sha512": "28620ba85dc338293a682bd0c794dc890d5578f3ff6784e40fe25a6a9b611f2dd0e97d09cd03c3916f72554f75b82fd31bfd1875ac8665f21db42144aff7692b",
+          "sha256": "22b7c83d6423ded400a2cd8413f9cb3b42183e5c001614d515b74c60bed65b26",
+          "sha1": "76ce5363cccf9b0d24eb4f5574ff20f1ee507d5d",
+          "md5": "a43818191fc05547ae579bead8ce7fef"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-test-js-1.8.22.jar",
+          "url": "kotlin-test-js-1.8.22.jar",
+          "size": 108371,
+          "sha512": "28620ba85dc338293a682bd0c794dc890d5578f3ff6784e40fe25a6a9b611f2dd0e97d09cd03c3916f72554f75b82fd31bfd1875ac8665f21db42144aff7692b",
+          "sha256": "22b7c83d6423ded400a2cd8413f9cb3b42183e5c001614d515b74c60bed65b26",
+          "sha1": "76ce5363cccf9b0d24eb4f5574ff20f1ee507d5d",
+          "md5": "a43818191fc05547ae579bead8ce7fef"
+        }
+      ]
+    }
+  ]
+}

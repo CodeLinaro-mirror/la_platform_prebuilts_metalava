@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../atomicfu/0.25.0/atomicfu-0.25.0.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "atomicfu",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu.klib",
+          "url": "atomicfu-iosx64-0.25.0.klib",
+          "size": 51151,
+          "sha512": "4d38728cf3c71942d480c5ba8a3b067cf22f6197c54c6678bb95c284288430a66ade97fe6b503922be84f4ba5084a0ba2cbf65264e00fd49e17baffb98e3c96a",
+          "sha256": "6199c097eac1be570595709855ac2f25dd7d04a27efc6201ab01de93b2670f6f",
+          "sha1": "54bc8abe3a0e9815f6dfc0b817a8ef08a585e6c6",
+          "md5": "a274c81994c9a818769286b42665c2e4"
+        },
+        {
+          "name": "atomicfu-cinterop-interop.klib",
+          "url": "atomicfu-iosx64-0.25.0-cinterop-interop.klib",
+          "size": 3750,
+          "sha512": "8697cabadb5697b964b76a5578f2cf7b214c0fec670b3c282446244d3ddc94c243ee1275b72124973d7eb7b7f5cb7ca707f266030ed6752bfc8e98033262c498",
+          "sha256": "0ec67f7d7b03f6c629f7c00668d997d24c178a4eb66d289fb5db2110ef3224b7",
+          "sha1": "78710693a76a79dfcf91f50dd1371794b465f9d5",
+          "md5": "7e01a266d3e5cfecc10e4edfedc92d2f"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "atomicfu-iosx64-0.25.0-sources.jar",
+          "url": "atomicfu-iosx64-0.25.0-sources.jar",
+          "size": 12642,
+          "sha512": "700d806d1bae74ef43ed26465e7e325b190b96e593c8460e3c8e947e23430bf611efc50d4f2ecd92c57ecd83786627d581bcf8362b9757d6cc2b4bc18a73a61a",
+          "sha256": "7416a0b767b67e97b11a34ea3399b55c40a04300921e9ede73d45fee6ed61584",
+          "sha1": "08781f11fd8f4d7b2e37a6816798648d478c5403",
+          "md5": "bffb1e99fa46163f9c87ce84950348d7"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu-iosx64-0.25.0-metadata.jar",
+          "url": "atomicfu-iosx64-0.25.0-metadata.jar",
+          "size": 12648,
+          "sha512": "b2ee8339be279757676e39f2bad220b51c294ea5ed0abcc4876b9ee38f85414dad8aaf613d96a4c002b8801e13788f94680f9f4e8b7764d21ed8cdfb3b647ed1",
+          "sha256": "41df577af2aed17334e62ba511fd461a5cf5c19e064ccc41be446b92548d0309",
+          "sha1": "14d1e3b54f2c5bd5c4cd66168b9938434bea9a87",
+          "md5": "c80047c5529022a3563ebcf5004ea797"
+        }
+      ]
+    }
+  ]
+}

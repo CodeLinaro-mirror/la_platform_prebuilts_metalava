@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../atomicfu/0.25.0/atomicfu-0.25.0.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "atomicfu",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu.klib",
+          "url": "atomicfu-watchosarm32-0.25.0.klib",
+          "size": 51204,
+          "sha512": "38b8ac517e789d50f8b41edc95454f0a528038dcde69df2dd37ce0e6232601ccc4b6a1054574f0fcb97e294f3ccbe744f03f9cf160bd837494c521f0af1db8bf",
+          "sha256": "e5c4603f4653b4f76b8599f8d99c867fdb49b8acf7ad80f132d400095593e446",
+          "sha1": "ec6d03d96cb127de4a85532f3e2d7a4c6195bb07",
+          "md5": "6d8a63f72d6dbcfe0d277125b9bca911"
+        },
+        {
+          "name": "atomicfu-cinterop-interop.klib",
+          "url": "atomicfu-watchosarm32-0.25.0-cinterop-interop.klib",
+          "size": 3838,
+          "sha512": "4c9618bff8f8231ef0d6c263a0350b13cb0ed5b79318ef3ad5f8934c5bee26e4d7c71d7b56e4aecb70c40ce846cdc52939742619d8b74b2fb808ca34d684c8ed",
+          "sha256": "185ec1d23412b9e778abb4f8f84ac6e8c1c18ed52925ff3be3c8123efb15b830",
+          "sha1": "eb1d5d7d32a0966b05a3fd182fbe520100c9fd80",
+          "md5": "b34c9007527d5ce5db7ef42a981e74a0"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "atomicfu-watchosarm32-0.25.0-sources.jar",
+          "url": "atomicfu-watchosarm32-0.25.0-sources.jar",
+          "size": 12642,
+          "sha512": "700d806d1bae74ef43ed26465e7e325b190b96e593c8460e3c8e947e23430bf611efc50d4f2ecd92c57ecd83786627d581bcf8362b9757d6cc2b4bc18a73a61a",
+          "sha256": "7416a0b767b67e97b11a34ea3399b55c40a04300921e9ede73d45fee6ed61584",
+          "sha1": "08781f11fd8f4d7b2e37a6816798648d478c5403",
+          "md5": "bffb1e99fa46163f9c87ce84950348d7"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu-watchosarm32-0.25.0-metadata.jar",
+          "url": "atomicfu-watchosarm32-0.25.0-metadata.jar",
+          "size": 12648,
+          "sha512": "c2a93549763ea38b5fd62c339e137c4b01b6b4d6b354282bd2686bfa1e633a8c7802427f2410e6da3e6e037a5627848e3d4320a03eb59d3b9cff1b7c5741d300",
+          "sha256": "6415f845a4c5ea20aaeb6c7f75c547ed31a523eb05a818cca71e2ac49f302911",
+          "sha1": "49e45b42e8ebd68e4925342ad7d50a2a75bc25db",
+          "md5": "bcf24b6107bed1e53ae41d8fd61f110d"
+        }
+      ]
+    }
+  ]
+}

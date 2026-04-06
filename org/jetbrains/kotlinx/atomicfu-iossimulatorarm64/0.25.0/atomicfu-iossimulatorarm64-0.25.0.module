@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../atomicfu/0.25.0/atomicfu-0.25.0.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "atomicfu",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu.klib",
+          "url": "atomicfu-iossimulatorarm64-0.25.0.klib",
+          "size": 51254,
+          "sha512": "a777b5f8418a9d112fb039d3b184aa791f9a2c7e4b82f8c9e85e333cd60e8fee684331706a806b50b410fd425ee2dfca8482b4eb59366091feeb5abd9a8d6010",
+          "sha256": "140655b2876239debd2d8bf481c73e7e66974139c622936a47ffed79a4f5d968",
+          "sha1": "c3dbeb87d24f1af1349148d016e35663cf9ee131",
+          "md5": "7a7293758b62784def83454f1f96f919"
+        },
+        {
+          "name": "atomicfu-cinterop-interop.klib",
+          "url": "atomicfu-iossimulatorarm64-0.25.0-cinterop-interop.klib",
+          "size": 3835,
+          "sha512": "39d6785b0a7175547938424a44452e0f285d79dd71182f974e5b597021183b24a34c6ffbc4bf642312e69fe478235ab00b71bf188494b610d9617ae53ed93962",
+          "sha256": "623e53cd630ef711d732b6d9ad578659a855324356f943b88e299987d1aa8581",
+          "sha1": "fa4e16f3124b281b448549707bf72a2dcf75b464",
+          "md5": "60784274ebb0438610db40dc633f2cd9"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "atomicfu-iossimulatorarm64-0.25.0-sources.jar",
+          "url": "atomicfu-iossimulatorarm64-0.25.0-sources.jar",
+          "size": 12642,
+          "sha512": "700d806d1bae74ef43ed26465e7e325b190b96e593c8460e3c8e947e23430bf611efc50d4f2ecd92c57ecd83786627d581bcf8362b9757d6cc2b4bc18a73a61a",
+          "sha256": "7416a0b767b67e97b11a34ea3399b55c40a04300921e9ede73d45fee6ed61584",
+          "sha1": "08781f11fd8f4d7b2e37a6816798648d478c5403",
+          "md5": "bffb1e99fa46163f9c87ce84950348d7"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu-iossimulatorarm64-0.25.0-metadata.jar",
+          "url": "atomicfu-iossimulatorarm64-0.25.0-metadata.jar",
+          "size": 12648,
+          "sha512": "b2ee8339be279757676e39f2bad220b51c294ea5ed0abcc4876b9ee38f85414dad8aaf613d96a4c002b8801e13788f94680f9f4e8b7764d21ed8cdfb3b647ed1",
+          "sha256": "41df577af2aed17334e62ba511fd461a5cf5c19e064ccc41be446b92548d0309",
+          "sha1": "14d1e3b54f2c5bd5c4cd66168b9938434bea9a87",
+          "md5": "c80047c5529022a3563ebcf5004ea797"
+        }
+      ]
+    }
+  ]
+}

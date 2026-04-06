@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-stdlib/2.2.10/kotlin-stdlib-2.2.10.module",
+    "group": "org.jetbrains.kotlin",
+    "module": "kotlin-stdlib",
+    "version": "2.2.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotlin-stdlib-js-2.2.10.klib",
+          "url": "kotlin-stdlib-js-2.2.10.klib",
+          "size": 2717719,
+          "sha512": "ac81972b98582388d9bdf8b50941e3dfa15d2d0f50f464d9d8b6910df995d1dcb719c399c2448e3f0d503da9449517aa36f976857e48a9b5a457454b3c3b5b5e",
+          "sha256": "8068c17b94576ee46e3053aef4c220f1693afbd7773a58a1dcf23f53367216d8",
+          "sha1": "cc398f69bd21ae512926df9b8f3ed03691c5df63",
+          "md5": "06c8cc258e00b5d7e64bff168c894b8f"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotlin-stdlib-js-2.2.10.klib",
+          "url": "kotlin-stdlib-js-2.2.10.klib",
+          "size": 2717719,
+          "sha512": "ac81972b98582388d9bdf8b50941e3dfa15d2d0f50f464d9d8b6910df995d1dcb719c399c2448e3f0d503da9449517aa36f976857e48a9b5a457454b3c3b5b5e",
+          "sha256": "8068c17b94576ee46e3053aef4c220f1693afbd7773a58a1dcf23f53367216d8",
+          "sha1": "cc398f69bd21ae512926df9b8f3ed03691c5df63",
+          "md5": "06c8cc258e00b5d7e64bff168c894b8f"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotlin-stdlib-js-2.2.10-sources.jar",
+          "url": "kotlin-stdlib-js-2.2.10-sources.jar",
+          "size": 694698,
+          "sha512": "b8bdc63d39d08437912dc9c61a755214d45d12352ce164b71193a0e04d3ff2bff5470e135bca8a852bc47fe4d3fa4962ec6d7849c6acff037f0186fde3fe2b9d",
+          "sha256": "8b4e5433cf21385e7ad258e1fbcd23930c265bca428fa317a7885063a4b82dac",
+          "sha1": "74969c4c073420d4cf9ee7a0b6810c5d301481c5",
+          "md5": "f0efc155c7566439db1be3f5649331f7"
+        }
+      ]
+    }
+  ]
+}

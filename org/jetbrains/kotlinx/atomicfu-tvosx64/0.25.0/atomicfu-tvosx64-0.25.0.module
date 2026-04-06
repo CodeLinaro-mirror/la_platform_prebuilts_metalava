@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../atomicfu/0.25.0/atomicfu-0.25.0.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "atomicfu",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu.klib",
+          "url": "atomicfu-tvosx64-0.25.0.klib",
+          "size": 51160,
+          "sha512": "9a0a8faa218387e383cc7c0aca91ec762e0513f0f1e92bcdc57e7969825270a63dc0a9f2ce2a7f0b4c0c1bfe48d940bc9c4f1bec5e29964a3ecfd16501caa49e",
+          "sha256": "115c518cd998dd97f80a30ebc89bc357cc52dde860ecfaa388dced2b480fc9d2",
+          "sha1": "ed5ea6db0e1a9f934410c82c9cfc2e44ad8ce438",
+          "md5": "f3001c270c18effb4ec03ad2a1becd01"
+        },
+        {
+          "name": "atomicfu-cinterop-interop.klib",
+          "url": "atomicfu-tvosx64-0.25.0-cinterop-interop.klib",
+          "size": 3763,
+          "sha512": "1a17c43dff0b15e355e0eb9163de48b02fbe2fbe24ae8a309ec88b761e6ad9f45cb9e8185e762f9fead8f931052f06e11febaa7a44f8a6be752a6e4e648f0968",
+          "sha256": "0e5e91c0f403f95a1f333c9e1b0e78612006093fb652c5fb488366858d321c45",
+          "sha1": "be8d884e815a19530a43abf6a20e72e3ffb07ae0",
+          "md5": "6f69eca8918b91cc93fa3e22d9304da0"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "atomicfu-tvosx64-0.25.0-sources.jar",
+          "url": "atomicfu-tvosx64-0.25.0-sources.jar",
+          "size": 12642,
+          "sha512": "700d806d1bae74ef43ed26465e7e325b190b96e593c8460e3c8e947e23430bf611efc50d4f2ecd92c57ecd83786627d581bcf8362b9757d6cc2b4bc18a73a61a",
+          "sha256": "7416a0b767b67e97b11a34ea3399b55c40a04300921e9ede73d45fee6ed61584",
+          "sha1": "08781f11fd8f4d7b2e37a6816798648d478c5403",
+          "md5": "bffb1e99fa46163f9c87ce84950348d7"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu-tvosx64-0.25.0-metadata.jar",
+          "url": "atomicfu-tvosx64-0.25.0-metadata.jar",
+          "size": 12648,
+          "sha512": "6f7a753f17e74745137cc8d88a021c9314ede41a4b978938633b27be86ca031962ef828ab1aadd4b99181edf9442ade22640c669a9ab5b9428cf61dbb2d915dc",
+          "sha256": "8ef5801f0993becf8bc9931ca8d17446f8b20cfd1050596064d12d887b3ddcc8",
+          "sha1": "64b25682e88323a7481507073c01fdf12bc32709",
+          "md5": "52de1ed0527ce5c69600f259a51f175f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../atomicfu/0.25.0/atomicfu-0.25.0.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "atomicfu",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu.klib",
+          "url": "atomicfu-mingwx64-0.25.0.klib",
+          "size": 51085,
+          "sha512": "ea2fa554277cc28bda82841c03133cf44deb3c1ceedc48c973ff9278d34e8ddb20d4acbaeec4e1eb0bcc8f8a091757bbac92fd7dc1c4dc9b1fdb677d70c70b99",
+          "sha256": "08c6d47a70df54fa742e058e10f0a5fc73acd3169c6157ea26e94f633bb17e87",
+          "sha1": "7e7739b00ce870af0bdaaed8cef908506950ccd7",
+          "md5": "ae6708865ed50fd71465a1d66e3c73f1"
+        },
+        {
+          "name": "atomicfu-cinterop-interop.klib",
+          "url": "atomicfu-mingwx64-0.25.0-cinterop-interop.klib",
+          "size": 3733,
+          "sha512": "758bad9faa3d7b4a3c490bef15e6dd95bec28531f9d8bab5d87827c01894fc84f4f6a5c65d611c70eef06e2e9a568cc83d21d8694cea8bd73986a6b6886c9d12",
+          "sha256": "615fd439074db0170e3022876d949a1a39564da6eb03ecc1608d151965581bc6",
+          "sha1": "c5262278ff82f5a280a85e1dfc22d0dfa8c3b719",
+          "md5": "db1decca44456359ece4e3921ad88a6b"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "atomicfu-mingwx64-0.25.0-sources.jar",
+          "url": "atomicfu-mingwx64-0.25.0-sources.jar",
+          "size": 12017,
+          "sha512": "818da547bca36c4720bcd17c1360f5e02f763d3157d014d98c7b871b539fda35f343cb9ebbe050508993c436f14413135067024d41f8dc7b7f2a63183eb81917",
+          "sha256": "d7cc36e607f9005b71f65863c26925dc1bcc82363bb81c871ee98d02e758e2d0",
+          "sha1": "fcc3e8efbffe66789fdc302af6ac25d7a796c48c",
+          "md5": "ffb98f9e99784273a998b840f120096e"
+        }
+      ]
+    }
+  ]
+}

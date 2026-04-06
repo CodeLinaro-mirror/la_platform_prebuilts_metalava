@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../atomicfu/0.25.0/atomicfu-0.25.0.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "atomicfu",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu.klib",
+          "url": "atomicfu-tvossimulatorarm64-0.25.0.klib",
+          "size": 51262,
+          "sha512": "b4c2826e0f60d6e7ff44db7c85a60a7999040e60ad3f1ba4476a5ca3d5533cd9c3a6aa99ac58ec7a360f67121555581aa813ad6aeee3faecedfabe72224fc25f",
+          "sha256": "1e9cb76ec7334c3c642f6794159fb0214820fae8b0bb97437d2d7a2a11c139f7",
+          "sha1": "b20dd9d2fac553927c4ab391597def4c17822441",
+          "md5": "7167fd786f486b811e6c931889badf30"
+        },
+        {
+          "name": "atomicfu-cinterop-interop.klib",
+          "url": "atomicfu-tvossimulatorarm64-0.25.0-cinterop-interop.klib",
+          "size": 3846,
+          "sha512": "a084e162e1db95a49643614dd77fb21873db04b29b909192073987068d6a868319e1b5f3f08e9f158ff0f8d02b49258a9adefcd86aed1c1d8cfbee2cdaf2f0a0",
+          "sha256": "f8ffce87663285de055b892fe9b0d0dd67cd4897ef70556dfa1d8f838d1d1280",
+          "sha1": "c24fbcec19dca9ab3d908e15a723419765bbb4a1",
+          "md5": "125440a94dc6fd08db846a6094c28d24"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "atomicfu-tvossimulatorarm64-0.25.0-sources.jar",
+          "url": "atomicfu-tvossimulatorarm64-0.25.0-sources.jar",
+          "size": 12642,
+          "sha512": "700d806d1bae74ef43ed26465e7e325b190b96e593c8460e3c8e947e23430bf611efc50d4f2ecd92c57ecd83786627d581bcf8362b9757d6cc2b4bc18a73a61a",
+          "sha256": "7416a0b767b67e97b11a34ea3399b55c40a04300921e9ede73d45fee6ed61584",
+          "sha1": "08781f11fd8f4d7b2e37a6816798648d478c5403",
+          "md5": "bffb1e99fa46163f9c87ce84950348d7"
+        }
+      ]
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu-tvossimulatorarm64-0.25.0-metadata.jar",
+          "url": "atomicfu-tvossimulatorarm64-0.25.0-metadata.jar",
+          "size": 12648,
+          "sha512": "6f7a753f17e74745137cc8d88a021c9314ede41a4b978938633b27be86ca031962ef828ab1aadd4b99181edf9442ade22640c669a9ab5b9428cf61dbb2d915dc",
+          "sha256": "8ef5801f0993becf8bc9931ca8d17446f8b20cfd1050596064d12d887b3ddcc8",
+          "sha1": "64b25682e88323a7481507073c01fdf12bc32709",
+          "md5": "52de1ed0527ce5c69600f259a51f175f"
+        }
+      ]
+    }
+  ]
+}
