@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../tracing/2.0.0-alpha08/tracing-2.0.0-alpha08.module",
+    "group": "androidx.tracing",
+    "module": "tracing",
+    "version": "2.0.0-alpha08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0",
+      "buildId:": "15390118"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.0-alpha08"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.0-alpha08"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing.aar",
+          "url": "tracing-android-2.0.0-alpha08.aar",
+          "size": 144575,
+          "sha512": "c162c9dfe3321e3bfd8660ea71c63847005a649cc9586ed1252aa18b1043b4a24ef4976444d963c6db800b89a77546a8131dabb775cbb9ddc94ff472232dd3cb",
+          "sha256": "eeb9bf03f5daa978abbfa45e846e3aff18c65e63c665cdd5a0da57762a16d491",
+          "sha1": "051cb01459438edd3d1b771e7549c48f4cb03ab1",
+          "md5": "5c7a4f12f726a53afb6af2bde06db16e"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.0-alpha08"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.0-alpha08"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing.aar",
+          "url": "tracing-android-2.0.0-alpha08.aar",
+          "size": 144575,
+          "sha512": "c162c9dfe3321e3bfd8660ea71c63847005a649cc9586ed1252aa18b1043b4a24ef4976444d963c6db800b89a77546a8131dabb775cbb9ddc94ff472232dd3cb",
+          "sha256": "eeb9bf03f5daa978abbfa45e846e3aff18c65e63c665cdd5a0da57762a16d491",
+          "sha1": "051cb01459438edd3d1b771e7549c48f4cb03ab1",
+          "md5": "5c7a4f12f726a53afb6af2bde06db16e"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.0-alpha08"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.0-alpha08"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-android-2.0.0-alpha08-sources.jar",
+          "url": "tracing-android-2.0.0-alpha08-sources.jar",
+          "size": 70702,
+          "sha512": "6ba364afc8949cfedc008c33c9060189e5eb812a8549d2a76c5caecc394caa9751e362d69b9cf63a51fa4f5c751428ada1aec61987e1624011f4e33cddfbefd1",
+          "sha256": "a8cd4dcf05264f232f6f78dcaff6e216445c9cb8e5312aa1db486bbb25fbc935",
+          "sha1": "f73aaf45a7d2e6586e8ac21f6464bfa84049123e",
+          "md5": "ab69435f3fa58a0ea27bc19dbe223069"
+        }
+      ]
+    }
+  ]
+}

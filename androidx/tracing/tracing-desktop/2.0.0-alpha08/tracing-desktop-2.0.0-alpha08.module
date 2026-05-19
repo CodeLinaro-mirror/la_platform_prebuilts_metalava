@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../tracing/2.0.0-alpha08/tracing-2.0.0-alpha08.module",
+    "group": "androidx.tracing",
+    "module": "tracing",
+    "version": "2.0.0-alpha08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0",
+      "buildId:": "15390118"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.0-alpha08"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.0-alpha08"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-desktop-2.0.0-alpha08.jar",
+          "url": "tracing-desktop-2.0.0-alpha08.jar",
+          "size": 143643,
+          "sha512": "1b79f92f46b283db481bb5f473a47ab576c11a44cbf0d50b5f84b0ac6b910c6de33ed2f48cdb10e54abc346aa61afae9a5f54c9a6bbaab2951655ff43b8dd71e",
+          "sha256": "a05edda10780764b0b9e88906cd35ab44feabbb159c51052cf32b633d129728b",
+          "sha1": "4bf972bfe8fb018efa1bbc5ca2aece4ee9a6b84c",
+          "md5": "ec55111b8d7b61890051d3eba93d8edc"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.0-alpha08"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.0-alpha08"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-desktop-2.0.0-alpha08.jar",
+          "url": "tracing-desktop-2.0.0-alpha08.jar",
+          "size": 143643,
+          "sha512": "1b79f92f46b283db481bb5f473a47ab576c11a44cbf0d50b5f84b0ac6b910c6de33ed2f48cdb10e54abc346aa61afae9a5f54c9a6bbaab2951655ff43b8dd71e",
+          "sha256": "a05edda10780764b0b9e88906cd35ab44feabbb159c51052cf32b633d129728b",
+          "sha1": "4bf972bfe8fb018efa1bbc5ca2aece4ee9a6b84c",
+          "md5": "ec55111b8d7b61890051d3eba93d8edc"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.0-alpha08"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.0-alpha08"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-desktop-2.0.0-alpha08-sources.jar",
+          "url": "tracing-desktop-2.0.0-alpha08-sources.jar",
+          "size": 65616,
+          "sha512": "3ac14da7e5a369c922690f90b2a0466d123a263fcff42e67cbef7813f73571938ae7ec38282dcf7f80a699a30c29d37c23851285f6b44f47b3fab783209a60c6",
+          "sha256": "17bd603a7933ea2d62e7e0dfae22af138c407896fd027a9d04af9f4d238042b2",
+          "sha1": "33057c8744ccafad358327a7b5e2c75026fac976",
+          "md5": "7e942d01a3c1cba8f533b29170180d43"
+        }
+      ]
+    }
+  ]
+}
