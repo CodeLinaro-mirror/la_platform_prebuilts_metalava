@@ -64,7 +64,8 @@ java_import {
     name: "prebuilts-metalava-guava",
     host_supported: true,
     jars: [
-        "com/google/guava/guava/32.1.1-jre/guava-32.1.1-jre.jar",
+        "com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar",
+	"com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
     ],
 }
 
@@ -126,7 +127,7 @@ java_import {
     name: "prebuilts-metalava-turbine",
     host_supported: true,
     jars: [
-        "com/google/turbine/turbine/0.14.0/turbine-0.14.0.jar",
+        "com/google/turbine/turbine/1.15.0/turbine-1.15.0.jar",
     ],
 }
 
