@@ -1,0 +1,309 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.tracing",
+    "module": "tracing-wire",
+    "version": "2.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0",
+      "buildId:": "16342595"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "com.squareup.wire",
+          "module": "wire-runtime",
+          "version": {
+            "requires": "6.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing-wire is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing-wire is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-wire-metadata-2.0.3.jar",
+          "url": "tracing-wire-2.0.3.jar",
+          "size": 4922,
+          "sha512": "2b34189dff58728cfe2385a8244c38dfddd8181108858642102818834ac701e75a3257b0a317f2343e774b6f767c091b29d7c0b221782ca6f3fa8c4ce9bbae77",
+          "sha256": "b752c39a01622fcab05b1e24727c712a4b071cec0f22a41ff4ead44d9cf8ab27",
+          "sha1": "6a4cd8862c7d4091ddd1890953c6f42dfdea1901",
+          "md5": "e3d28493f3a4a103487fabd4facc6641"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing-wire is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing-wire is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-wire-kotlin-2.0.3-sources.jar",
+          "url": "tracing-wire-2.0.3-sources.jar",
+          "size": 53551,
+          "sha512": "538d3bca0a282047648d3c59d5f838937323ba54f28a5bce109ec5448262782f4eed4df4afb500da95f92e2f401d4d96ede7fdae17f27d74c8f08cd08587d8f2",
+          "sha256": "afe4bd31ae9ca64bbc75dcef18ecddb7cb0dcc71fbde9ee61945c37830d59054",
+          "sha1": "58d5fc00fe47e55f4b1f9e8f82e12c42769ed65b",
+          "md5": "4992487dc6c11b9c552eaea9a39cb669"
+        }
+      ]
+    },
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing-wire is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing-wire is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-wire-2.0.3-multiplatform-sources.jar",
+          "url": "tracing-wire-2.0.3-multiplatform-sources.jar",
+          "size": 70540,
+          "sha512": "771b8c791b08f8067662140ac1122a35208db598d8729da12fea7cdc98697d21e4dbd7133bdc2c264288f2b24227ae80ff9a145feef4aae429f770c05aa05ef3",
+          "sha256": "3ea3bf1000ecb5b8be004284cfbb5d708b95acd51b7778583d0d06ffaec2ebc0",
+          "sha1": "bdedfd301f8c920b5eedb038138f4fdb3a3b1b89",
+          "md5": "1c566dd94c335b459161d8b05672cf23"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing-wire is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing-wire is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "tracing-wire-2.0.3-versionMetadata.json",
+          "size": 4007,
+          "sha512": "384d0a83343ef23fe87891fa69c0f40c6f1cc8f6961b55c8f31977fdd1e8986ec2ebee603f50eb2000d0868221e66526b6672286b7aa12e0244d76d877744abf",
+          "sha256": "60e6d0a13c9f50b4792d22b4a661543d606c09fe0009691f85767ec1bad65c6c",
+          "sha1": "234954af0df6cdeb48ddccf6059defe298ef504c",
+          "md5": "b5c386889e5fea31ad69a7e85eafade6"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../tracing-wire-android/2.0.3/tracing-wire-android-2.0.3.module",
+        "group": "androidx.tracing",
+        "module": "tracing-wire-android",
+        "version": "2.0.3"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../tracing-wire-android/2.0.3/tracing-wire-android-2.0.3.module",
+        "group": "androidx.tracing",
+        "module": "tracing-wire-android",
+        "version": "2.0.3"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../tracing-wire-android/2.0.3/tracing-wire-android-2.0.3.module",
+        "group": "androidx.tracing",
+        "module": "tracing-wire-android",
+        "version": "2.0.3"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../tracing-wire-desktop/2.0.3/tracing-wire-desktop-2.0.3.module",
+        "group": "androidx.tracing",
+        "module": "tracing-wire-desktop",
+        "version": "2.0.3"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../tracing-wire-desktop/2.0.3/tracing-wire-desktop-2.0.3.module",
+        "group": "androidx.tracing",
+        "module": "tracing-wire-desktop",
+        "version": "2.0.3"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../tracing-wire-desktop/2.0.3/tracing-wire-desktop-2.0.3.module",
+        "group": "androidx.tracing",
+        "module": "tracing-wire-desktop",
+        "version": "2.0.3"
+      }
+    }
+  ]
+}

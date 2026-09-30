@@ -1,0 +1,295 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.tracing",
+    "module": "tracing",
+    "version": "2.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0",
+      "buildId:": "16342595"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-metadata-2.0.3.jar",
+          "url": "tracing-2.0.3.jar",
+          "size": 4876,
+          "sha512": "ec6465a6ee16169c07fa6c4813f03dbe6e75f767cb99caa6cccafb27187f3aee9718050661e22fbe0dea3362b68a15fbd3b3bfabde9bfc0d91322895fd8ea68d",
+          "sha256": "aac3444bdcff86f2e0e46cbe3a857393c248cb946eeede5bd67ab823647c7db2",
+          "sha1": "9b0b872cbc2a2a5c1993c408695db57f7241ce29",
+          "md5": "c07a6528b9671f079fef7685da76eada"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-kotlin-2.0.3-sources.jar",
+          "url": "tracing-2.0.3-sources.jar",
+          "size": 62620,
+          "sha512": "de636c43c50632c330bfde9656964f1e547853eebde2d8708cde848900aea7b0d6ab74852c726d2e961a907beb40c51c706ee7827dc725791104d294a7cd0de3",
+          "sha256": "b9cf9ab2ece228de9e2fe9e255268d36b1776c737aa024fe988e38a798da182b",
+          "sha1": "a5b50990f8afd433d1995799336926ec49a2675e",
+          "md5": "1ce29d8706960baead43d068036ae95b"
+        }
+      ]
+    },
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-2.0.3-multiplatform-sources.jar",
+          "url": "tracing-2.0.3-multiplatform-sources.jar",
+          "size": 79933,
+          "sha512": "5fc430c7258fd4bb7834f48d31603148ad41b7adcbb0fab6b3a98ad0f45f9b9a6c43bbb1473af8fbca258500c242f0c1ebe37700d02ef1065291193fce06750a",
+          "sha256": "26343533210b5ad704ab85a986846d6e9f85e438e843f85d57ed5276ddeffc50",
+          "sha1": "c2fb71c01040f2a4d8abf56f719bb3a034d5203f",
+          "md5": "aa6f11acc23903b99d3f63c6cc2cfcad"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.3"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "tracing-2.0.3-versionMetadata.json",
+          "size": 13815,
+          "sha512": "d5f133168207e11dca8f89630f48bba24968611067080b539d660a8cbdeb4abcc2f75ae470c8387010c989cfb0efaf3cb20ab4354b79493107d3fccc4fa561ba",
+          "sha256": "f6684c850d2c647f75ba674fe4a8d6c3443803f27550170000c4659230f3bdb8",
+          "sha1": "92f4469fdb1ed9fca1f073c390c2fa5e3102b954",
+          "md5": "0604edc8686368d68c2a1d974460e93f"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../tracing-android/2.0.3/tracing-android-2.0.3.module",
+        "group": "androidx.tracing",
+        "module": "tracing-android",
+        "version": "2.0.3"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../tracing-android/2.0.3/tracing-android-2.0.3.module",
+        "group": "androidx.tracing",
+        "module": "tracing-android",
+        "version": "2.0.3"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../tracing-android/2.0.3/tracing-android-2.0.3.module",
+        "group": "androidx.tracing",
+        "module": "tracing-android",
+        "version": "2.0.3"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../tracing-desktop/2.0.3/tracing-desktop-2.0.3.module",
+        "group": "androidx.tracing",
+        "module": "tracing-desktop",
+        "version": "2.0.3"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../tracing-desktop/2.0.3/tracing-desktop-2.0.3.module",
+        "group": "androidx.tracing",
+        "module": "tracing-desktop",
+        "version": "2.0.3"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../tracing-desktop/2.0.3/tracing-desktop-2.0.3.module",
+        "group": "androidx.tracing",
+        "module": "tracing-desktop",
+        "version": "2.0.3"
+      }
+    }
+  ]
+}
