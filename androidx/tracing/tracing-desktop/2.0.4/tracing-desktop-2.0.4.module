@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../tracing/2.0.4/tracing-2.0.4.module",
+    "group": "androidx.tracing",
+    "module": "tracing",
+    "version": "2.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0",
+      "buildId:": "16530026"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.4"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.4"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-desktop-2.0.4.jar",
+          "url": "tracing-desktop-2.0.4.jar",
+          "size": 152884,
+          "sha512": "6b3a859375203661e74c0c491d5203a7905bf2fb716e5e5d4784d7dfde4bf1276276dbdf994fafd7b68f1cbb39295dc2124ed5c739bf3cb5b1c8568ae6829c87",
+          "sha256": "50b1f32c5fe02f377319e0cc05451957dddd557c0bd0b5de40b85b411f9ba80c",
+          "sha1": "04722478219fb31c0a283e0173df3e4901783a54",
+          "md5": "84517328779e4ecd53b181cce56b1575"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.4"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.4"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-desktop-2.0.4.jar",
+          "url": "tracing-desktop-2.0.4.jar",
+          "size": 152884,
+          "sha512": "6b3a859375203661e74c0c491d5203a7905bf2fb716e5e5d4784d7dfde4bf1276276dbdf994fafd7b68f1cbb39295dc2124ed5c739bf3cb5b1c8568ae6829c87",
+          "sha256": "50b1f32c5fe02f377319e0cc05451957dddd557c0bd0b5de40b85b411f9ba80c",
+          "sha1": "04722478219fb31c0a283e0173df3e4901783a54",
+          "md5": "84517328779e4ecd53b181cce56b1575"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "2.0.4"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-wire",
+          "version": {
+            "requires": "2.0.4"
+          },
+          "reason": "tracing is in atomic group androidx.tracing"
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-desktop-2.0.4-sources.jar",
+          "url": "tracing-desktop-2.0.4-sources.jar",
+          "size": 68449,
+          "sha512": "d9cdc0fef8fcd748c470e8142e3a8317ce4b526037f96c9f4bbcfaf5cb2ec5ed29dad9c0625a929fcbd8a32396f012f1538642dc99addaad994c62e590783b94",
+          "sha256": "df79e1aab1d0fba07bf6ec0fceb55772b005fe0e94a223b00a501d2852b9bbc6",
+          "sha1": "40823f0f4aea5a382ebe7903f0f4f247d7da30a3",
+          "md5": "c4f3193c3ec792c4cf7ace69e5452c6c"
+        }
+      ]
+    }
+  ]
+}
