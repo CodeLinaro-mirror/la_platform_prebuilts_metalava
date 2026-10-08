@@ -94,14 +94,14 @@ java_import {
     name: "prebuilts-metalava-lint",
     host_supported: true,
     jars: [
-        "com/android/tools/build/manifest-merger/32.4.0-alpha02/manifest-merger-32.4.0-alpha02.jar",
-        "com/android/tools/common/32.4.0-alpha02/common-32.4.0-alpha02.jar",
-        "com/android/tools/lint/lint/32.4.0-alpha02/lint-32.4.0-alpha02.jar",
-        "com/android/tools/lint/lint-api/32.4.0-alpha02/lint-api-32.4.0-alpha02.jar",
-        "com/android/tools/lint/lint-checks/32.4.0-alpha02/lint-checks-32.4.0-alpha02.jar",
-        "com/android/tools/lint/lint-gradle/32.4.0-alpha02/lint-gradle-32.4.0-alpha02.jar",
-        "com/android/tools/lint/lint-model/32.4.0-alpha02/lint-model-32.4.0-alpha02.jar",
-        "com/android/tools/lint/lint-typedef-remover/32.4.0-alpha02/lint-typedef-remover-32.4.0-alpha02.jar",
+        "com/android/tools/build/manifest-merger/32.5.0-alpha09/manifest-merger-32.5.0-alpha09.jar",
+        "com/android/tools/common/32.5.0-alpha09/common-32.5.0-alpha09.jar",
+        "com/android/tools/lint/lint/32.5.0-alpha09/lint-32.5.0-alpha09.jar",
+        "com/android/tools/lint/lint-api/32.5.0-alpha09/lint-api-32.5.0-alpha09.jar",
+        "com/android/tools/lint/lint-checks/32.5.0-alpha09/lint-checks-32.5.0-alpha09.jar",
+        "com/android/tools/lint/lint-gradle/32.5.0-alpha09/lint-gradle-32.5.0-alpha09.jar",
+        "com/android/tools/lint/lint-model/32.5.0-alpha09/lint-model-32.5.0-alpha09.jar",
+        "com/android/tools/lint/lint-typedef-remover/32.5.0-alpha09/lint-typedef-remover-32.5.0-alpha09.jar",
     ],
 }
 
@@ -109,9 +109,9 @@ java_import {
     name: "prebuilts-metalava-psi",
     host_supported: true,
     jars: [
-        "com/android/tools/external/org-jetbrains/uast/32.4.0-alpha02/uast-32.4.0-alpha02.jar",
-        "com/android/tools/external/com-intellij/intellij-core/32.4.0-alpha02/intellij-core-32.4.0-alpha02.jar",
-        "com/android/tools/external/com-intellij/kotlin-compiler/32.4.0-alpha02/kotlin-compiler-32.4.0-alpha02.jar",
+        "com/android/tools/external/org-jetbrains/uast/32.5.0-alpha09/uast-32.5.0-alpha09.jar",
+        "com/android/tools/external/com-intellij/intellij-core/32.5.0-alpha09/intellij-core-32.5.0-alpha09.jar",
+        "com/android/tools/external/com-intellij/kotlin-compiler/32.5.0-alpha09/kotlin-compiler-32.5.0-alpha09.jar",
     ],
 }
 
