@@ -17,25 +17,6 @@ package {
 }
 
 java_import {
-    name: "prebuilts-metalava-antlr4-runtime",
-    host_supported: true,
-    jars: [
-        "org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar",
-    ],
-}
-
-java_import {
-    name: "prebuilts-metalava-antlr4-tool",
-    host_supported: true,
-    jars: [
-        "org/antlr/ST4/4.3.4/ST4-4.3.4.jar",
-        "org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar",
-        "org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar",
-        "org/antlr/antlr4/4.13.1/antlr4-4.13.1.jar",
-    ],
-}
-
-java_import {
     name: "prebuilts-metalava-asm",
     host_supported: true,
     jars: [
@@ -64,29 +45,9 @@ java_import {
     name: "prebuilts-metalava-guava",
     host_supported: true,
     jars: [
-        "com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar",
-	"com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
-    ],
-}
-
-java_import {
-    name: "prebuilts-metalava-jackson-xml",
-    host_supported: true,
-    jars: [
-        "com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar",
-        "com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar",
-        "com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar",
-        "com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.15.0/jackson-dataformat-xml-2.15.0.jar",
-        "com/fasterxml/jackson/module/jackson-module-kotlin/2.15.0/jackson-module-kotlin-2.15.0.jar",
-        "com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.jar",
-    ],
-}
-
-java_import {
-    name: "prebuilts-metalava-jsr305",
-    host_supported: true,
-    jars: [
         "com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+        "com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
+        "com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar",
     ],
 }
 
@@ -124,26 +85,29 @@ java_import {
 }
 
 java_import {
-    name: "prebuilts-metalava-turbine",
-    host_supported: true,
-    jars: [
-        "com/google/turbine/turbine/1.15.0/turbine-1.15.0.jar",
-    ],
-}
-
-java_import {
     name: "prebuilts-metalava-tracing",
     host_supported: true,
     jars: [
         "androidx/annotation/annotation-jvm/1.10.0/annotation-jvm-1.10.0.jar",
         "androidx/collection/collection-jvm/1.6.0/collection-jvm-1.6.0.jar",
         "androidx/tracing/tracing-desktop/2.0.4/tracing-desktop-2.0.4.jar",
+    ],
+}
+
+java_import {
+    name: "prebuilts-metalava-tracing-wire",
+    host_supported: true,
+    jars: [
         "androidx/tracing/tracing-wire-desktop/2.0.4/tracing-wire-desktop-2.0.4.jar",
-        "androidx/tracing/tracing-wire/2.0.4/tracing-wire-2.0.4.jar",
-        "androidx/tracing/tracing/2.0.4/tracing-2.0.4.jar",
         "com/squareup/okio/okio-jvm/3.17.0/okio-jvm-3.17.0.jar",
-        "com/squareup/okio/okio/3.17.0/okio-3.17.0.jar",
         "com/squareup/wire/wire-runtime-jvm/6.4.0/wire-runtime-jvm-6.4.0.jar",
-        "com/squareup/wire/wire-runtime/6.4.0/wire-runtime-6.4.0.jar",
+    ],
+}
+
+java_import {
+    name: "prebuilts-metalava-turbine",
+    host_supported: true,
+    jars: [
+        "com/google/turbine/turbine/1.15.0/turbine-1.15.0.jar",
     ],
 }
