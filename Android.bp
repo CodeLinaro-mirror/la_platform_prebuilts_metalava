@@ -77,14 +77,6 @@ java_import {
 }
 
 java_import {
-    name: "prebuilts-metalava-sdklib",
-    host_supported: true,
-    jars: [
-        "com/android/tools/sdklib/32.4.0-alpha02/sdklib-32.4.0-alpha02.jar",
-    ],
-}
-
-java_import {
     name: "prebuilts-metalava-tracing",
     host_supported: true,
     jars: [
