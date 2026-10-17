@@ -59,9 +59,7 @@ java_import {
         "com/android/tools/lint/lint/32.5.0-alpha09/lint-32.5.0-alpha09.jar",
         "com/android/tools/lint/lint-api/32.5.0-alpha09/lint-api-32.5.0-alpha09.jar",
         "com/android/tools/lint/lint-checks/32.5.0-alpha09/lint-checks-32.5.0-alpha09.jar",
-        "com/android/tools/lint/lint-gradle/32.5.0-alpha09/lint-gradle-32.5.0-alpha09.jar",
         "com/android/tools/lint/lint-model/32.5.0-alpha09/lint-model-32.5.0-alpha09.jar",
-        "com/android/tools/lint/lint-typedef-remover/32.5.0-alpha09/lint-typedef-remover-32.5.0-alpha09.jar",
     ],
 }
 
