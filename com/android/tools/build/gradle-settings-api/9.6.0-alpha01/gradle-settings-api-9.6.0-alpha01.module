@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.build",
+    "module": "gradle-settings-api",
+    "version": "9.6.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle-common-api",
+          "version": {
+            "requires": "9.6.0-alpha01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-settings-api-9.6.0-alpha01.jar",
+          "url": "gradle-settings-api-9.6.0-alpha01.jar",
+          "size": 10100,
+          "sha512": "6b5af450276da15329cfeff07267d252f9d756de6069a89da557a62338babcc58d73df48f49c1875afed2da8a50b50f9f0c46ff982bd35c5489c1380e6132b76",
+          "sha256": "9691b7b4984bbfb48f1c329a77f27c6864f974b577d7d7bc91cc3631dd3e8cd1",
+          "sha1": "d9d4a1e457d87637f68c1dbe3807ca368d484b0c",
+          "md5": "2dedd55a0795d384d97f69f44bd58107"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle-common-api",
+          "version": {
+            "requires": "9.6.0-alpha01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-settings-api-9.6.0-alpha01.jar",
+          "url": "gradle-settings-api-9.6.0-alpha01.jar",
+          "size": 10100,
+          "sha512": "6b5af450276da15329cfeff07267d252f9d756de6069a89da557a62338babcc58d73df48f49c1875afed2da8a50b50f9f0c46ff982bd35c5489c1380e6132b76",
+          "sha256": "9691b7b4984bbfb48f1c329a77f27c6864f974b577d7d7bc91cc3631dd3e8cd1",
+          "sha1": "d9d4a1e457d87637f68c1dbe3807ca368d484b0c",
+          "md5": "2dedd55a0795d384d97f69f44bd58107"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-settings-api-9.6.0-alpha01-javadoc.jar",
+          "url": "gradle-settings-api-9.6.0-alpha01-javadoc.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-settings-api-9.6.0-alpha01-sources.jar",
+          "url": "gradle-settings-api-9.6.0-alpha01-sources.jar",
+          "size": 9611,
+          "sha512": "dffc0369b9febee07283f2c6b3f32624a1868dac6930f3fc3bb58ce980cfd62f39815891be6ad491c92dd4d0e3b8c2c27b33bd568ec29ed46011d377c55dae03",
+          "sha256": "b763c8c95da2786c088edb9d9d89adb8a07ca3e7e4f0698b923d593960f1ed6e",
+          "sha1": "2b245b9fd3ba3776a2847c13c64fa969ea39cdc0",
+          "md5": "bbced733867ef4773f51bad0d00184e9"
+        }
+      ]
+    }
+  ]
+}
